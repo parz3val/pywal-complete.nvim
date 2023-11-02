@@ -2,8 +2,8 @@ local M = {}
 
 M.highlights_base = function(colors)
   return {
-    Normal = { fg = colors.foreground, bg = colors.transparent },
-    StatusLineNC = { fg = colors.transparent, bg = colors.transparent },
+    Normal = { fg = colors.color6, bg = colors.transparent },
+    StatusLineNC = { fg = colors.transparent, bg = colors.color4 },
     StatusLine = { fg = colors.transparent, bg = colors.color3 },
     SignColumn = { fg = colors.transparent, bg = colors.transparent },
     MsgArea = { fg = colors.foreground, bg = colors.transparent },
@@ -18,7 +18,7 @@ M.highlights_base = function(colors)
     PmenuSel = { fg = colors.transparent, bg = colors.color0 },
     WildMenu = { fg = colors.color7, bg = colors.color4 },
     CursorLineNr = { fg = colors.color1 },
-    Comment = { fg = colors.color10, bg = colors.background },
+    Comment = { fg = colors.color11, bg = colors.background },
     Folded = { fg = colors.color4, bg = colors.transparent },
     FoldColumn = { fg = colors.color4, bg = colors.transparent },
     LineNr = { fg = colors.color12, bg = colors.transparent },
@@ -58,7 +58,7 @@ M.highlights_base = function(colors)
     EndOfBuffer = { fg = colors.background, bg = colors.transparent },
     NonText = { fg = colors.background, bg = colors.background },
     Variable = { fg = colors.color9 },
-    String = { fg = colors.color6 },
+    String = { fg = colors.color8 },
     Character = { fg = colors.color12 },
     Constant = { fg = colors.color9 },
     Number = { fg = colors.color5 },
