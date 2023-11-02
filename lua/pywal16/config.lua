@@ -4,7 +4,7 @@ M.highlights_base = function(colors)
   return {
     Normal = { fg = colors.foreground, bg = colors.transparent },
     StatusLineNC = { fg = colors.transparent, bg = colors.transparent },
-    StatusLine = { fg = colors.transparent, bg = colors.transparent },
+    StatusLine = { fg = colors.transparent, bg = colors.color3 },
     SignColumn = { fg = colors.transparent, bg = colors.transparent },
     MsgArea = { fg = colors.foreground, bg = colors.transparent },
     ModeMsg = { fg = colors.foreground, bg = colors.transparent },
